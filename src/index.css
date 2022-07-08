@@ -1,13 +1,113 @@
-body {
+* {
+  box-sizing: border-box;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  font-family: "Inter", sans-serif;
+  background-color: hsla(227, 11%, 15%, 1);
+  color: #dcdcdc;
+  font-family: "Inter", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+h1 {
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+h2 {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+h3 {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.1;
+  color: hsla(25, 79%, 78%, 1);
+}
+
+p {
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 1.5;
+  margin-bottom: 1em;
+}
+
+.heading {
+  color: hsla(0, 0%, 100%, 1);
+}
+
+.container {
+  padding-inline: 2em;
+}
+
+.card {
+  width: 317px;
+  margin: 0 auto;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn {
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+  padding: 0.75em 3em;
+  margin-block: 1em;
+  width: 100%;
+  background: #ffffff;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05); /* shadow/sm */
+  border-radius: 6px;
+  border: 1px solid #d1d5db;
+  text-align: center;
+}
+
+.btn-icon {
+  margin-right: 0.25em;
+}
+
+/* Main -------------------------------- */
+main {
+  background: hsla(231, 12%, 12%, 1);
+  padding-bottom: 1em;
+}
+
+.info {
+  text-align: center;
+  padding-block: 1em;
+}
+
+/* Footer ------------------------------ */
+footer {
+  background: hsla(231, 7%, 9%, 1);
+  border-radius: 0px 0px 10px 10px;
+}
+
+.social__list {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.social__list-item {
+  padding: 1.5rem 0.5rem;
 }
